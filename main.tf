@@ -1,3 +1,4 @@
+# Lab validation: trigger Terraform Plan through the platform workflow
 module "vm" {
   source = "git::https://github.com/FA9-lab/platform-infrastructure.git//azure/compute/vm/terraform?ref=main"
 
